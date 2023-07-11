@@ -1,0 +1,1 @@
+deployctl deploy --project=msqueue main.ts

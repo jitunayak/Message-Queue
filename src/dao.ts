@@ -2,7 +2,7 @@ import { IQueue, IQueueV0Record } from "./types.ts";
 
 // deno-lint-ignore-file no-explicit-any no-explicit-any no-explicit-any
 const kv = await Deno.openKv();
-console.log("DB Connected");
+console.log("DB Connected ⬆️ ⬇️ 🥂");
 
 export const ingestMockData = async (queueName: string) => {
   await kv.set([queueName, 0], { sequenceNumber: 1, latestSequence: 2 });
