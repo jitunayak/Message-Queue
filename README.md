@@ -2,7 +2,7 @@
 
 ### insert to queue
 ```json
-http https://msqueue.deno.dev/api/v1/queue/transaction data="initial testing of Deno KV🔥"
+http -POST https://msqueue.deno.dev/api/v1/queue/transaction data="initial testing of Deno KV🔥"
 
 {
     "consumedAt": null,
